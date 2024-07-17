@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 #Install the dependencies
-RUN npm install
+RUN npm Install
 
 #COPY the rest of the application code
 COPY . .
